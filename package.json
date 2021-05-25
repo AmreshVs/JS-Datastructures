@@ -1,0 +1,22 @@
+{
+  "name": "JS_Algorithms",
+  "version": "1.0.0",
+  "description": "JavaScript Algorithms",
+  "main": "src/string_reversal/index.html",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.2",
+    "babel-jest": "^26.6.3",
+    "jest": "26.6.3"
+  },
+  "resolutions": {},
+  "keywords": [
+    "javascript"
+  ]
+}
