@@ -5,7 +5,7 @@
   "main": "src/string_reversal/index.html",
   "scripts": {
     "build": "babel src -d lib",
-    "test": "jest"
+    "test": "jest --watch"
   },
   "type": "module",
   "dependencies": {},
