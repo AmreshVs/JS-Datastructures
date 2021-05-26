@@ -1,4 +1,4 @@
 export default {
   verbose: true,
-  rootDir: './src/array'
+  rootDir: './src/linked_list'
 };
