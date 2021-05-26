@@ -1,3 +1,4 @@
-# JS-StringReversal-Jest
+# Javascript Datastructures with Jest testcases
 
-String Reversal algorithm in Javascript with Jest testing library
+- Array
+- Linked List
