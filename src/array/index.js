@@ -19,6 +19,8 @@ class Array {
   }
 
   pop() {
+    if (!this.length) throw new Error("Array Empty");
+
     // Decrementing the length and deleting the last item
     const selectedValue = this.values[--this.length];
     delete this.values[this.length];
