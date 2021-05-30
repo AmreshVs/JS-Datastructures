@@ -1,14 +1,14 @@
 class Stack {
 
-  constructor(stackSize) {
+  constructor(capacity) {
     // Initializing the values
     this.length = 0;
-    this.size = stackSize || -1;
+    this.capacity = capacity || -1;
     this.values = {};
   }
 
   push(item) {
-    if (this.size == this.length) throw new Error("Stack Overflow");
+    if (this.capacity == this.length) throw new Error("Stack Overflow");
     // Add item and increment the length by 1
     this.values[this.length++] = item;
   }

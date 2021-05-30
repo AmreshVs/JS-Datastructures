@@ -1,4 +1,4 @@
 export default {
   verbose: true,
-  rootDir: './src/stack'
+  rootDir: './src/priority_queue'
 };
