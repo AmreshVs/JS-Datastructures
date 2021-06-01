@@ -1,16 +1,16 @@
 # Javascript Data Structures with Jest Library test cases - Created from scratch
 
-- **[Array](#array)**
+- **[Array](#array-)**
 
-- **[Stack](#stack)**
+- **[Stack](#stack-)**
 
-- **[Queue](#queue)**
+- **[Queue](#queue-)**
 
-- **[Priority Queue](#priority-queue)**
+- **[Priority Queue](#priority-queue-)**
 
-- **[Linked List](#linked-list)**
+- **[Linked List](#linked-list-)**
 
-- **[Hash Table](#hash-table)**
+- **[Hash Table](#hash-table-)**
 
 ## Implementation Details
 
