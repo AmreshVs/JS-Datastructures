@@ -1,4 +1,4 @@
 export default {
   verbose: true,
-  rootDir: './src/hash_table'
+  rootDir: './src/binary_search_tree'
 };

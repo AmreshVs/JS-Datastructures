@@ -12,6 +12,8 @@
 
 - **[Hash Table](#hash-table-)**
 
+- **[Binary Search Tree](#binary-search-tree-)**
+
 ## Implementation Details
 
 ### **Array :**
@@ -92,3 +94,23 @@ Hash tables are most useful and powerfull data structure which holds the key, va
 | remove(key)     | Removes and returns the value                     |
 | isEmpty()       | Boolean that returns true if empty and vice-versa |
 | isFull()        | Boolean that returns true if full and vice-versa  |
+
+### **Binary Search Tree :**
+
+Binary Search Trees are most useful and powerfull data structure in which left child values are less than root node and right child values are greater than root node. The following methods are implemented
+
+| Method                        | Description                                            |
+| ----------------------------- | ------------------------------------------------------ |
+| insert(value)                 | Insert value in either left or right child             |
+| find(value)                   | Returns true if found, false if not                    |
+| isBinarySearchTree()          | Returns true if it is Binary Search Tree, false if not |
+| swapChildNodesLeftRight()     | Swap the right and left child nodes                    |
+| nodesAtKthDistance(distance)  | Returns the nodes at the given distance                |
+| preOrderTraversal()           | Prints the nodes in Root, Left, Right order            |
+| inOrderTraversal()            | Prints the nodes in Left, Root, Right order            |
+| postOrderTraversal()          | Prints the nodes in Left, Right, Root order            |
+| levelOrderTraversal()         | Prints the nodes from each level to the end            |
+| maxHeight()                   | Returns the maximum height of the tree                 |
+| minValue()                    | Returns the minimum value from the tree                |
+| equals(firstTree, secondTree) | Returns true if both tree matches, false if not        |
+| isEmpty()                     | Returns true if tree is empty, else not                |
